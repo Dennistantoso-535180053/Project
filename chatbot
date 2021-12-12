@@ -1,0 +1,622 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Chatbot</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="title">PANAMA@BOT</div>
+        <div class="box">
+            <div class="item">
+                <div class="icon">
+                    <i class="fa fa-user"></i>
+                </div>
+                <div class="msg">
+                    <p>halo,perkenalkan aku Panbot ?</p>
+                </div>
+            </div>
+            
+<div class="item">
+                <div class="icon">
+                    <i class="fa fa-user"></i>
+                </div>
+                <div class="msg">
+                    <p>ada yang bisa panbot bantu?</p>
+                </div>
+            </div>
+            <br">
+            <div>
+                <br clear="both"> 
+
+<div class="item right">
+
+                <div class="msg">
+            <input type="radio" id="konfirmasi" name="pilihan"value="Ya,ada">
+            <label for="Ya,ada">Ya,ada dong</label><br>
+            <br> 
+                </div>
+            </div>
+            <br><br>
+
+
+<div class="item">
+
+            <div class="msg" id="pesan" style="display: none;">
+
+            <div class="icon"tyle="display: none;">
+                    <i class="fa fa-user"></i>
+                </div>  
+                <p>silahkan pilih yang anda inginkan </p>
+    <input type="radio" id="pembelian-product" name="pilihan"value="pembelian product">
+    <label for="pembelian product">pembelian product</label><br>
+
+    <input type="radio" id="chat-live" name="pilihan"value="chat live">
+    <label for="chat live">pengajuan/chat live</label>
+
+        </div>
+</div>
+<div class="item">
+
+            <div class="msg" id="sex" style="display: none;">
+
+            <div class="icon"tyle="display: none;">
+                    <i class="fa fa-user"></i>
+                </div>  
+                <p>untuk sexnya </p>
+    <input type="radio" id="male" name="pilihan"value="male">
+    <label for="warna">pria.</label><br>
+
+    <input type="radio" id="female" name="pilihan"value="female">
+    <label for="warna">wanita.</label>
+        </div>
+</div>
+
+<div class="item">       
+
+            <div class="msg" id="jenis-produk-pria" style="display: none;">
+            <div class="icon"tyle="display: none;">
+                    <i class="fa fa-user"></i>
+                </div>  
+                <p>silahkan pilih variasi sendal!</p>
+    <p>KHUSUS pria</p>
+    <input type="radio" id="produk-jepit-pria" name="pilihan"value="Sendal Jepit">
+    <label for="produk1">Sendal Jepit.</label><br>
+
+    <input type="radio" id="produk-slider-pria" name="pilihan"value="Sendal slider">
+    <label for="produk1">Sendal slider.</label>
+        </div>
+        </div>
+<div class="item">
+
+        <div class="msg" id="pria-jepit" style="display: none;">
+
+        <div class="icon"tyle="display: none;">
+                    <i class="fa fa-user"></i>
+                </div>  
+                <p>SILAHKAN PILIH VARIASI SENDAL YANG ADA INGINKAN SAMPAI PALING BAWAH!!!</p>
+                <p>silahkan pilih varian sendal jepit</p>
+ <input type="radio" 
+                    <label for="jepit">M01<br>
+                        <p>RP.140.000</p>
+                        <p>( ALAS HITAM TALI BIRU)</p>
+<input type="radio" 
+                    <label for="jepit">M02<br>
+                        <p>RP.140.000</p>
+                        <p>(ALAS HITAM TALI KUNING)</p>
+<input type="radio" 
+                    <label for="jepit">M03<br>
+                        <p>RP.140.000</p>
+                        <p>(ALAS HITAM TALI HIJAU)</p>
+<input type="radio" 
+                    <label for="jepit">M04<br>
+                        <p>RP.140.000</p>
+                        <p>(ALAS NAVY TALI ABU)</p> 
+ <input type="radio" 
+                    <label for="jepit">M05<br>
+                        <p>RP.140.000</p>
+                        <p>( ALAS HITAM TALI HITAM)</p>
+<input type="radio" 
+                    <label for="jepit">M06<br>
+                        <p>RP.140.000</p>
+                        <p>( ALAS NAVY TALI HITAM)</p>
+<input type="radio" 
+                    <label for="jepit">M07<br>
+                        <p>RP.140.000</p>
+                        <p>( ALAS HIJAU TALI HIJAU)</p>  
+<input type="radio" 
+                    <label for="jepit">M08<br>
+                        <p>RP.140.000</p>
+                        <p>( ALAS HITAM TALI PEACH)</p>   
+<input type="radio" 
+                    <label for="jepit">M09<br>
+                        <p>RP.140.000</p>
+                        <p>( ALAS HITAM TALI MERAH)</p>
+<input type="radio" 
+                    <label for="jepit">M010<br>
+                        <p>RP.140.000</p>
+                        <p>( ALAS HITAM TALI CREAM)</p>                    
+        </div>
+    </div>
+
+<div class="item">
+
+        <div class="msg" id="ukuran-pria-jepit" style="display: none;">
+
+        <div class="icon"tyle="display: none;">
+                    <i class="fa fa-user"></i>
+                </div>  
+
+                <p>silahkan pilih ukuran</p>
+ <input type="radio" 
+                    <label for="ukuran">UKURAN<br>
+                        <p> UK 8 (39-40)</p>
+ <input type="radio" 
+                    <label for="ukuran">UKURAN<br>
+                        <p> UK 9 (41-42)</p>
+ <input type="radio" 
+                    <label for="ukuran">UKURAN<br>
+                        <p> UK 10 (43-44)</p>
+ <input type="radio" 
+                    <label for="ukuran">UKURAN<br>
+                        <p> UK 11 (45-46)</p> 
+        </div>
+    </div>
+
+<div class="item">
+
+        <div class="msg" id="pria-slider" style="display: none;">
+
+        <div class="icon"tyle="display: none;">
+                    <i class="fa fa-user"></i>
+                </div>  
+
+                <p>silahkan pilih varian sendal slider</p>
+ <input type="radio" 
+                    <label for="slider">PANAMA CHIN-CAI<br>
+                        <p>RP.220.000</p>
+                        <p>( ALAS NAVY STRAP HITAM)</p>
+<input type="radio" 
+                    <label for="slider">PANAMA CHENG-LI<br>
+                        <p>RP.220.000</p>
+                        <p>(ALAS HITAM STRAP BIRU)</p>
+<input type="radio" 
+                    <label for="slider">PANAMA BO-HUAT<br>
+                        <p>RP.220.000</p>
+                        <p>(ALAS HITAM STRAP BIRU)</p>
+<input type="radio" 
+                    <label for="slider">PANAMA LIGHT-DEER<br>
+                        <p>RP.220.000</p>
+                        <p>(ALAS HITAM STRAP HITAM)</p> 
+ <input type="radio" 
+                    <label for="slider">PANAMA LIGHT-YELLOW-DEER<br>
+                        <p>RP.220.000</p>
+                        <p>( ALAS HITAM STRAP HITAM)</p>
+<input type="radio" 
+                    <label for="slider">PANAMA ARMY HIJAU<br>
+                        <p>RP.220.000</p>
+                        <p>( ALAS HITAM STARAP HIJAU)</p>
+<input type="radio" 
+                    <label for="slider">PANAMA ARMY BIRU<br>
+                        <p>RP.220.000</p>
+                        <p>( ALAS HITAM STARAP BIRU)</p>
+<input type="radio" 
+                    <label for="slider">PANAMA ARMY HITAM<br>
+                        <p>RP.220.000</p>
+                        <p>( ALAS HITAM STARAP HITAM)</p>
+<input type="radio" 
+                    <label for="slider">PANAMA(VANDALS-VLORE-01<br>
+                        <p>FROM:RP.220.000 TO RP.1100.000</p>
+                        <p>( ALAS RAINBOW BUKA-TUTUP)</p>    
+<input type="radio" 
+                    <label for="slider">PANAMA (VANDALS-VLORE-02<br>
+                        <p>FROM:RP.240.000 TO RP.120.000</p>
+                        <p>( ALAS RAINBOW GANTI-DISP)</p>  
+<input type="radio" 
+                    <label for="slider">PANAMA (VANDALS-VLORE-03<br>
+                        <p>FROM:RP.280.000 TO RP.140.000</p>
+                        <p>( ALAS RAINBOW BUKA-TUTUP,GANTI-DISP)</p>             
+        </div>
+    </div>
+
+<div class="item">
+
+        <div class="msg" id="ukuran-pria-slider" style="display: none;">
+
+        <div class="icon"tyle="display: none;">
+                    <i class="fa fa-user"></i>
+                </div>  
+
+                <p>silahkan pilih ukuran</p>
+ <input type="radio" 
+                    <label for="ukuran">UKURAN<br>
+                        <p> UK 40</p>
+ <input type="radio" 
+                    <label for="ukuran">UKURAN<br>
+                        <p> UK 41</p>
+ <input type="radio" 
+                    <label for="ukuran">UKURAN<br>
+                        <p> UK 42 </p>
+ <input type="radio" 
+                    <label for="ukuran">UKURAN<br>
+                        <p> UK 43 </p> 
+<input type="radio" 
+                    <label for="ukuran">UKURAN<br>
+                        <p> UK 44 </p> 
+        </div>
+    </div>
+
+
+<div class="item">       
+
+            <div class="msg" id="jenis-produk-wanita" style="display: none;">
+            <div class="icon"tyle="display: none;">
+                    <i class="fa fa-user"></i>
+                </div>  
+                <p>silahkan pilih variasi sendal!</p>
+    <p>KHUSUS wanita</p>
+    <input type="radio" id="produk-jepit-wanita" name="pilihan"value="Sendal Jepit">
+    <label for="produk1">Sendal Jepit.<br>
+
+    <input type="radio" id="produk-tinggi-wanita" name="pilihan"value="Sendal slider">
+    <label for="produk1">Sendal tinggi.</label>
+    
+        </div>
+
+        </div>
+
+<div class="item">
+
+        <div class="msg" id="wanita-jepit" style="display: none;">
+
+        <div class="icon"tyle="display: none;">
+                    <i class="fa fa-user"></i>
+                </div>  
+                <p>SILAHKAN PILIH VARIASI SENDAL YANG ADA INGINKAN SAMPAI PALING BAWAH!!!</p>
+                <p>silahkan pilih varian sendal jepit</p>
+ <input type="radio" 
+                    <label for="JEPIT">w01<br>
+                        <p>RP.140.000</p>
+                        <p>( ALAS NAVY TALI PINK)</p>
+                        
+<input type="radio" 
+                    <label for="JEPIT">w02<br>
+                        <p>RP.140.000</p>
+                        <p>( ALAS PINK TALI UNGGU)</p>
+                        
+<input type="radio" 
+                    <label for="JEPIT">w03<br>
+                        <p>RP.140.000</p>
+                        <p>( ALAS PINK TALI ABU)</p>
+                        
+<input type="radio" 
+                    <label for="JEPIT">w04<br>
+                        <p>RP.140.000</p>
+                        <p>( ALAS HITAM TALI HITAM)</p>
+<input type="radio" 
+                    <label for="JEPIT">w05<br>
+                        <p>RP.140.000</p>
+                        <p>( ALAS HITAM TALI TOSCA)</p>
+                        
+<input type="radio" 
+                    <label for="JEPIT">w06<br>
+                        <p>RP.140.000</p>
+                        <p>( ALAS ABU TALI BIRU)</p>
+                        
+<input type="radio" 
+                    <label for="JEPIT">w07<br>
+                        <p>RP.140.000</p> 
+                        <p>( ALAS PEACH TALI ABU)</p>
+<input type="radio" 
+                    <label for="JEPIT">w07<br>
+                        <p>RP.140.000</p>  
+                        <p>( ALAS BIRU TALI MERAH)</p>  
+<input type="radio" 
+                    <label for="JEPIT">w07<br>
+                        <p>RP.140.000</p> 
+                        <p>( ALAS NAVY TALI NAVY)</p>   
+<input type="radio" 
+                    <label for="JEPIT">w07<br>
+                        <p>RP.140.000</p> 
+                        <p>( ALAS PINK TALI PUTIH)</p>   
+<input type="radio" 
+                    <label for="JEPIT">w07<br>
+                        <p>RP.140.000</p> 
+                        <p>( ALAS HITAM TALI PUTIH)</p>                        
+        </div>
+    </div>
+<div class="item">
+
+        <div class="msg" id="ukuran-wanita-jepit" style="display: none;">
+
+        <div class="icon"tyle="display: none;">
+                    <i class="fa fa-user"></i>
+                </div>  
+
+                <p>silahkan pilih ukuran</p>
+ <input type="radio" 
+                    <label for="ukuran">UKURAN<br>
+                        <p> UK 5 (35-36)</p>
+ <input type="radio" 
+                    <label for="ukuran">UKURAN<br>
+                        <p> UK 6 (36-37)</p>
+ <input type="radio" 
+                    <label for="ukuran">UKURAN<br>
+                        <p> UK 7 (37-38)</p>
+ <input type="radio" 
+                    <label for="ukuran">UKURAN<br>
+                        <p> UK 8 (39-40)</p> 
+        </div>
+    </div>
+<div class="item">
+
+        <div class="msg" id="wanita-tinggi" style="display: none;">
+
+        <div class="icon"tyle="display: none;">
+                    <i class="fa fa-user"></i>
+                </div>  
+
+                <p>silahkan pilih varian sendal tinggi</p>
+ <input type="radio" 
+                    <label for="TINGGI">CH01<br>
+                        <p>RP.220.000</p>
+                        <p>( ALAS NAVY TALI NAVY)</p>
+                        
+<input type="radio" 
+                    <label for="TINGGI">CH02<br>
+                        <p>RP.110.000</p>
+                        <p>( ALAS HIJAU TALI HIJAU)</p>
+                        
+<input type="radio" 
+                    <label for="TINGGI">CH03<br>
+                        <p>RP.110.000</p>
+                        <p>( ALAS ABU TALI ABU)</p>
+                        
+<input type="radio" 
+                    <label for="TINGGI">CH04<br>
+                        <p>RP.220.000</p>
+                        <p>( ALAS HITAM TALI HITAM)</p>
+<input type="radio" 
+                    <label for="TINGGI">CH05<br>
+                        <p>RP.110.000</p>
+                        <p>( ALAS UNGGU TALI UNGGU)</p>
+                        
+<input type="radio" 
+                    <label for="TINGGI">CH06<br>
+                        <p>RP.110.000</p>
+                        <p>( ALAS MERAH TALI MERAH)</p>                       
+        </div>
+    </div>
+<div class="item">
+
+        <div class="msg" id="ukuran-wanita-TINGGI" style="display: none;">
+
+        <div class="icon"tyle="display: none;">
+                    <i class="fa fa-user"></i>
+                </div>  
+
+                <p>silahkan pilih ukuran</p>
+ <input type="radio" 
+                    <label for="ukuran">UKURAN<br>
+                        <p> UK 5 (35-36)</p>
+ <input type="radio" 
+                    <label for="ukuran">UKURAN<br>
+                        <p> UK 6 (36-37)</p>
+ <input type="radio" 
+                    <label for="ukuran">UKURAN<br>
+                        <p> UK 7 (37-38)</p>
+ <input type="radio" 
+                    <label for="ukuran">UKURAN<br>
+                        <p> UK 8 (39-40)</p> 
+        </div>
+    </div>
+
+<div class="item">
+
+        <div class="msg" id="PEMBAYARAN" style="display: none;">
+
+        <div class="icon"tyle="display: none;">
+                    <i class="fa fa-user"></i>
+                </div>  
+         <form>
+                <p>silahkan masukan data di bawah ini </p>
+                <p>setelah submit pihak CS akan menghubungi nomor anda melalui whatsapp message,dan memberikan tagihan yang harus segera di bayarkan dalam kurun waktu MAX 30 menit</p>
+               
+                    <label for="fname"> nama pembeli</label>
+                    <input type="text"id="fname" name="fname">
+                    <br>
+                    <label for="type"> jenis</label>
+                    <input type="text"id="type" name="jenis">
+                    <br>
+                    <label for="number"> No telpon</label>
+                    <input type="number">
+                    <br>
+                    
+<P>"UNTUK BIAYA PENGIRIMAN AKAN DI TANGGUNG OLEH PEMBELI,UNTUK DAERAH JABODETABEK DIKENAKAN BIAYA SEBESAR RP:10.000 FLAT SEDANGKAN LUAR DAERAH AKAN DIKENAKAN BIAYA SEBESAR RP:20.000 FLAT"</P>
+             <input type="submit"/>
+    </form>
+  
+        <br>
+        </div>
+         </div>
+
+<div class="item">
+
+        <div class="msg" id="chat" style="display: none;">
+
+        <div class="icon"tyle="display: none;">
+                    <i class="fa fa-user"></i>
+                </div>  
+                <p>apa yang anda ingin tanyakan</p>
+    <input type="radio" id="seputar-komplen" name="pilihan"value="seputar komplen">
+    <label for="seputar komplen">pengajuan komplen</label><br>
+   
+    <input type="radio" id="seputar-panama" name="pilihan" value="seputar PANAMA">
+    <label for="seputar PANAMA">tanya jawab dengan CS</label><br>
+        <br>
+        </div>
+        </div>
+
+<div class="item">
+
+        <div class="msg" id="PK" style="display: none;">
+
+        <div class="icon"tyle="display: none;">
+                    <i class="fa fa-user"></i>
+                </div>  
+         <form>
+                <p>silahkan masukan data di bawah ini </p>
+                <p>setelah submit pihak CS akan menghubungi nomor anda,silahkan memberikan bukti struk pembayaran dan foto sendal</p>
+               
+                    <label for="fname"> nama pembeli</label>
+                    <input type="text"id="fname" name="fname">
+                    <br>
+                    <label for="type"> jenis</label>
+                    <input type="text"id="type" name="jenis">
+                    <br>
+                    <label for="number"> No telpon</label>
+                    <input type="number">
+                    <br>
+                    <p>kerusakan:</p>
+                    <input type="checkbox" id="rusak tali" name="rusak tali" value="pilihan">
+                    <label for="rusak tali"> rusak bagian tali</label><br>
+                    <input type="checkbox" id="rusak alas" name="rusak alas" value="pilihan">
+                    <label for="rusak alas"> rusak bagian alas</label><br>
+                    <P>"SETELAH ANDA TEKAN SUBMIT,TAMPILAN AKAN KEMBALI KE HALAMAN SEBELUMNYA,APABILA ADA PERTANYAAN SILAHKAN LAKUKAN PILIHAN TANYA JAWAB DENGAN CS"</P>
+             <input type="submit"/>
+    </form>
+  
+        <br>
+        </div>
+</div>
+
+<div class="item">
+
+        <div class="msg" id="CL" style="display: none;">
+
+        <div class="icon"tyle="display: none;">
+                    <i class="fa fa-user"></i>
+                </div>  
+    <form>
+                <p>silahkan masukan data anda,pihak kami akan segera menghubungi anda setelah anda selsai submit</p>
+                    <label for="fname"> nama pembeli</label>
+                    <input type="text"id="fname" name="fname">
+                    <br>
+                   
+                    <label for="number"> No telpon</label>
+                    <input type="number">
+                    <br>
+                    <p>pilih jenis komunikasi,silahkan pilih salah satu apabila anda pilih dua CS kami tidak bisa menghubungi anda:</p>                    
+                    <input type="checkbox" id="whatsapp call" name="whatsapp call" value="pilihan">
+                    <label for="whatsapp call"> whataapp call</label><br>
+                    <input type="checkbox" id="whatsapp chat" name="whatsapp chat" value="pilihan">
+                    <label for="whatsapp chat"> whatsapp chat</label><br>
+
+    <input type="submit">   
+            </form>            
+        </div>
+        </div>
+
+<div class="item">
+
+        <div class="msg" id="test" style="display: none;">
+        <div class="icon"tyle="display: none;">
+                    <i class="fa fa-user"></i>
+                </div>
+                <p>ada lagi yang bisa panbot bantuu? </p>
+                    <input type="radio" id="ada" name="pilihan"value="ya ada lagi">
+                    <label for="warna">ada lagi .</label><br>
+
+                    <input type="radio" id="tidak" name="pilihan"value="gelap">
+                    <label for="warna">tidak ada lagi.</label>
+        </div>
+    </div>
+        <div class="typing-area">
+            <div class="input-field">
+               <p>silahkan pilih salah 1 radio button</p> 
+            </div>
+        </div>
+    </div>
+</body>
+<script 
+   
+    type="text/javascript">
+    document.getElementById("konfirmasi").onclick = function() {
+        document.getElementById("pesan").style.display = "block";
+    }
+  
+    document.getElementById("pembelian-product").onclick = function() {
+        document.getElementById("sex").style.display = "block";
+    }
+    document.getElementById("sex").onclick = function() {
+        document.getElementById("warna").style.display = "block";
+    }
+    document.getElementById("male").onclick = function() {
+        document.getElementById("jenis-produk-pria").style.display = "block";
+    }
+    document.getElementById("jenis-produk-pria").onclick = function() {
+        document.getElementById("pria-jepit").style.display = "block";
+    }
+    document.getElementById("pria-jepit").onclick = function() {
+        document.getElementById("ukuran-pria-jepit").style.display = "block";
+    }
+    document.getElementById("ukuran-pria-jepit").onclick = function() {
+        document.getElementById("PEMBAYARAN").style.display = "block";
+    }
+    document.getElementById("produk-slider-pria").onclick = function() {
+        document.getElementById("pria-slider").style.display = "block";
+    }
+    document.getElementById("pria-slider").onclick = function() {
+        document.getElementById("ukuran-pria-slider").style.display = "block";
+    }
+    document.getElementById("ukuran-pria-slider").onclick = function() {
+        document.getElementById("PEMBAYARAN").style.display = "block";
+    }
+    document.getElementById("female").onclick = function() {
+        document.getElementById("jenis-produk-wanita").style.display = "block";
+    }
+    document.getElementById("jenis-produk-wanita").onclick = function() {
+        document.getElementById("wanita-jepit").style.display = "block";
+    }
+    document.getElementById("wanita-jepit").onclick = function() {
+        document.getElementById("ukuran-wanita-jepit").style.display = "block";
+    }
+    document.getElementById("ukuran-wanita-jepit").onclick = function() {
+        document.getElementById("PEMBAYARAN").style.display = "block";
+    }
+    document.getElementById("produk-tinggi-wanita").onclick = function() {
+        document.getElementById("wanita-tinggi").style.display = "block";
+    }
+    document.getElementById("wanita-tinggi").onclick = function() {
+        document.getElementById("ukuran-wanita-TINGGI").style.display = "block";
+    }
+    document.getElementById("ukuran-wanita-TINGGI").onclick = function() {
+        document.getElementById("PEMBAYARAN").style.display = "block";
+    }
+    document.getElementById("ukuran-wanita-jepit").onclick = function() {
+        document.getElementById("PEMBAYARAN").style.display = "block";
+    }
+
+    
+    document.getElementById("chat-live").onclick = function() {
+        document.getElementById("chat").style.display = "block";
+    }
+    document.getElementById("seputar-komplen").onclick = function() {
+        document.getElementById("PK").style.display = "block";
+    }
+    document.getElementById("seputar-panama").onclick = function() {
+        document.getElementById("CL").style.display = "block";
+    }
+    document.getElementById("sb").onclick = function() {
+        document.getElementById("test").style.display = "block";
+    }
+    
+
+</script>
+
+
+</html>
